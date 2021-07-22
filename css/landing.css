@@ -1,0 +1,100 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #3c3c3c;
+}
+
+h1 {
+    font-size: 82px !important;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.titleFont {
+    font-family: 'Cinzel', serif;
+}
+
+.row {
+    animation-delay: 2s !important;
+    animation: fadeIn 2s !important;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.coverImage {
+    width: 100vw !important;
+    height: 100vh !important;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: 1;
+    position: absolute;
+}
+
+.boxShadow {
+    background-color: rgba(0,0,0,.6);
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    position: absolute;
+}
+
+.name {
+    /* z-index: 2; */
+    position: absolute;
+    width: 100vw;
+    color: white;
+    margin-top: 22vh;
+    /* text-shadow: 1px 2px 5px #FFFFFF; */
+}
+
+.nav {
+    height: 100px;
+}
+
+.nav ul {
+    margin-top: 42px;
+}
+
+.nav a {
+    color: white;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    font-size: 22px;
+    transition-duration: .5s;
+    text-shadow: 1px 1px 2px black;
+}
+
+.credit {
+    color: white;
+    margin-top: 20vh;
+    position: absolute;
+    bottom: 25px;
+}
+
+.credit h6 {
+    font-size: 13px;
+}
+
+.credit a {
+    color: #dc3545;
+    font-size: 14px;
+}
+
+.credit a:hover {
+    font-size: 15px;
+    transition-duration: .5s;
+    text-shadow: 1px 1px 2px black;
+}
+

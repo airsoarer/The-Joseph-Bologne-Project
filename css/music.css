@@ -1,0 +1,21 @@
+body {
+    background-color: #A0816C;
+    color: white;
+}
+
+.contentContainer {
+    padding-bottom: 50px !important;
+}
+
+.collapsible {
+    border: none !important;
+    margin-bottom: 90px !important;
+}
+
+.collapsible div {
+    background-color: transparent !important;
+    border: none;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
