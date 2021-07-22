@@ -12,10 +12,39 @@ body {
     margin-bottom: 90px !important;
 }
 
+.collapsible li {
+    border-bottom: solid 2px #3c3c3c3a;
+}
+
 .collapsible div {
     background-color: transparent !important;
     border: none;
-    height: 100px;
     margin-bottom: 10px;
+}
+
+.collapsible-body {
+    padding-top: 0px;
+    /* padding-bottom: 50px; */
+}
+
+.collapsible-body h5 {
+    font-size: 20px;
+}
+
+.collapsible-body a {
+    color: white;
+}
+
+.collapsible-body a:hover {
+    transition-duration: .5s;
+    font-size: 18px;
+}
+
+.collapsible-body img {
+    height: 100px;
+}
+
+.section {
+    /* margin-bottom: 50px; */
 }
 
