@@ -1,0 +1,32 @@
+body {
+    background-color: #A0816C;
+    color: white;
+}
+
+@media screen and (min-width: 601px) {
+    .portrait img {
+        margin-bottom: 75px;
+    }
+}
+
+@media  screen and (max-width: 601px) {
+    .small {
+        padding-left: 0px !important;
+    }
+
+    .portrait {
+        padding-top: 50px !important
+    }
+}
+
+.project {
+    padding-bottom: 50px !important;
+}
+
+p a {
+    color: white;
+}
+
+.music div {
+    padding-bottom: 50px !important;
+}

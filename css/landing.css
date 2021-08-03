@@ -11,10 +11,14 @@ h1 {
     .footerNav {
         margin-top: 10px !important
     }
+
+    .footer {
+        height: 500px;
+    }
 }
 
 a:hover {
-    transition-duration: .5s;
+    transition-duration: .2s;
     color: #dc3545 !important;
 }
 
@@ -47,7 +51,7 @@ a:hover {
     height: 100vh !important;
     object-fit: cover;
     overflow: hidden;
-    z-index: 1;
+    /* z-index: 1; */
     position: absolute;
 }
 
@@ -55,7 +59,7 @@ a:hover {
     background-color: rgba(0,0,0,.6);
     height: 100vh;
     width: 100vw;
-    z-index: 2;
+    /* z-index: 2; */
     position: absolute;
 }
 
@@ -65,6 +69,7 @@ a:hover {
     width: 100vw;
     color: white;
     margin-top: 22vh;
+    padding-right: 0px !important;
     /* text-shadow: 1px 2px 5px #FFFFFF; */
 }
 
@@ -82,9 +87,8 @@ a:hover {
 }
 
 .nav a:hover {
-    font-size: 22px;
     transition-duration: .5s;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 0px 0px 2px black;
 }
 
 .credit {
@@ -114,7 +118,6 @@ a:hover {
     color: white;
     padding-top: 10px;
     margin-bottom: 0px;
-    /* height: 00px; */
 }
 
 .footer h6 {
@@ -124,5 +127,27 @@ a:hover {
 .footerNav {
     margin-top: 20px !important;
     margin-bottom: 50px;
+}
+
+.sidenav-trigger {
+    margin-top: 200px;
+}
+
+.sidenav {
+    background-color: #A0816C;
+    margin-top: 0px !important;
+    padding-top: 10px;
+}
+
+.sidenav li a {
+    color: White;
+}
+
+.sidenav li a:hover {
+    color: #dc3545
+}
+
+.sidenav-overlay {
+    background-color: rgba(0,0,0,.2)
 }
 

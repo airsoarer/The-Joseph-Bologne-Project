@@ -1,0 +1,13 @@
+body {
+    background-color: #A0816C;
+    color: white;
+}
+
+p {
+    font-size: 16.5px;
+}
+
+.contentContainer {
+    padding-bottom: 50px !important;
+}
+

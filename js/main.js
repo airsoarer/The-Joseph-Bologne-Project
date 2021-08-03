@@ -3,5 +3,6 @@
 
     function init(){
         $('.collapsible').collapsible();    
+        $('.sidenav').sidenav();
     }
 })();
