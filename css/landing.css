@@ -15,6 +15,10 @@ h1 {
     .footer {
         height: 500px;
     }
+
+    #smallTitle {
+        font-size: 64px !important;
+    }
 }
 
 a:hover {
