@@ -9,10 +9,12 @@ h1 {
 
 @media only screen and (max-width: 601px) {
     .footerNav {
-        margin-top: 10px !important
+        margin-top: 10px !important;
+        height: auto !important;
     }
 
     .footer {
+        height: auto !important;
         height: 500px;
     }
 
