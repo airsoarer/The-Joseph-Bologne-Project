@@ -21,6 +21,12 @@ h1 {
     #smallTitle {
         font-size: 64px !important;
     }
+
+    .icon {
+        position: absolute;
+        bottom: 100px;
+        right: 35vw !important;
+    }
 }
 
 a:hover {
@@ -158,7 +164,28 @@ a:hover {
 }
 
 .icon {
-    position: absolute !important;
-    bottom: 10px;
+    position: absolute;
+    bottom: 100px;
+    right: 45vw;
+}
+
+.scroll {
+    background-color: transparent;
+    border: none;
+    color: white !important;
+}
+
+.scroll:active, .scroll:focus {
+    background-color: transparent;
+}
+
+.scroll i {
+    color: white !important;
+    cursor: pointer;
+}
+
+.scroll i:hover {
+    color: #dc3545 !important;
+    transition-duration: .2s;
 }
 
