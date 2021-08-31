@@ -85,6 +85,19 @@ a:hover {
     /* text-shadow: 1px 2px 5px #FFFFFF; */
 }
 
+.sname {
+    margin-top: none !important;
+    padding-top: 0vh !important;
+}
+
+.sname a {
+    color: #dc3545;
+}
+
+.sname h6 {
+    padding-top: 15vh;
+}
+
 .nav {
     height: 100px;
 }
@@ -114,13 +127,8 @@ a:hover {
     font-size: 13px;
 }
 
-.credit a {
-    color: #dc3545;
-    font-size: 14px;
-}
-
-.credit a:hover {
-    font-size: 15px;
+.sname a:hover {
+    /* font-size: 13px; */
     transition-duration: .5s;
     text-shadow: 1px 1px 2px black;
 }
